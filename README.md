@@ -4,8 +4,7 @@ La plataforma hecha con Django con configuración para despliegue en Heroku con 
 ## Pasos:
 1.- Crear la migración inicial, en local. Instalar el entorno python y ejecutar:<br/>
 &nbsp;&nbsp;python manage.py makemigrations<br/>
-2.- Una vez subido a Heroku:
-Ejecutar la migracion inicial:<br/>
+2.- Una vez subido a Heroku. Ejecutar la migracion inicial:<br/>
 &nbsp;&nbsp;heroku run python manage.py migrate<br/>
 3.- Crear un usuario administrador para entrar a la plataforma:<br/>
 &nbsp;&nbsp;heroku run python manage.py createadmin<br/>
